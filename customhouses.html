@@ -7,101 +7,39 @@
   <body>
     <script type="text/javascript">
 
-    var a1 = prompt('Do you want windows on your house?')
-    var a2 = prompt('Do you want a door on your house?')
-    var a3 = prompt('Do you want a chimney on your house?')
+    var windows = prompt('Do you want windows on your house?')
+    var door = prompt('Do you want a door on your house?')
+    var chimney = prompt('Do you want a chimney on your house?')
 
-      if (a1 === yes,a2=== yes, a3=== yes){
-      console.log('    /\\ ||')
-      console.log('   /  \\||')
-      console.log('  /     ||')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|  0   0 |')
-      console.log('|    _   |')
-      console.log('|   | |  |')
-      console.log('|   | |  |')
-    } else if (a1 === no,a2===no,a3===no){
-      console.log('    /\\')
-      console.log('   /  \\')
-      console.log('  /    \\')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-    } else if (a1 === yes, a2 === no,  a3===no) {
-      console.log('    /\\ ')
-      console.log('   /  \\')
-      console.log('  /    \\')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|  0   0 |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-    } else if (a1 === yes, a2 === yes,  a3===no){
-      console.log('    /\\ ')
-      console.log('   /  \\')
-      console.log('  /    \\')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|  0   0 |')
-      console.log('|    _   |')
-      console.log('|   | |  |')
-      console.log('|   | |  |')
-    } else if (a1 === no, a2 === yes,  a3===no){
-      console.log('    /\\ ')
-      console.log('   /  \\')
-      console.log('  /    \\')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|    _   |')
-      console.log('|   | |  |')
-      console.log('|   | |  |')
-    } else if (a1 === no,a2 === yes,a3===yes){
-      console.log('    /\\ ||')
-      console.log('   /  \\||')
-      console.log('  /     ||')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|    _   |')
-      console.log('|   | |  |')
-      console.log('|   | |  |')
-    } else if (a1 === yes,a2 === no,a3===yes){
-      console.log('    /\\ ||')
-      console.log('   /  \\||')
-      console.log('  /     ||')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|  0   0 |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-    } else if (a1 === no,a2 === no,a3===yes){
-      console.log('    /\\ ||')
-      console.log('   /  \\||')
-      console.log('  /     ||')
-      console.log(' /      \\')
-      console.log('/        \\')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
-      console.log('|        |')
+    if(chimney==='yes'){
+      console.log('    /    \\ ||')
+      console.log('   /      \\||')
+      console.log('  /         ||')
+
+    }
+      else {
+      console.log('    /    \\ ')
+      console.log('   /      \\')
+      console.log('  /        \\')
+    }
+
+    if (windows==='yes'){
+      console.log('|   0   0  |')
+      console.log('|            |')
+    } else{
+      console.log('|           |')
+      console.log('|           |')
+    }
+
+    if (door==='yes'){
+      console.log('|    _      |')
+      console.log('|   | |     |')
+      console.log('|   | |     |')
     } else {
-      console.log('')
-}
+      console.log('|           |')
+      console.log('|           |')
+      console.log('|           |')
+    }
     </script>
   </body>
 </html>
